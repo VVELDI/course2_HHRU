@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dddcb34-8567-4d16-a9d4-42ac2d3a2f09" name="Changes" comment="Добвыил json файлы в data" />
+    <list default="true" id="3dddcb34-8567-4d16-a9d4-42ac2d3a2f09" name="Changes" comment="Добавил &#10;gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737748507692</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Добвыил json файлы в data">
+      <option name="closed" value="true" />
+      <created>1737748770390</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737748770390</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Добавил &#10;gitignore">
+      <option name="closed" value="true" />
+      <created>1737748873683</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737748873683</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +181,7 @@
     <MESSAGE value="Написал тесты" />
     <MESSAGE value="Запушил правильный файл main.py" />
     <MESSAGE value="Добвыил json файлы в data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добвыил json файлы в data" />
+    <MESSAGE value="Добавил &#10;gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил &#10;gitignore" />
   </component>
 </project>

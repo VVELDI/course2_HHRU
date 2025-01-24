@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dddcb34-8567-4d16-a9d4-42ac2d3a2f09" name="Changes" comment="Создал структуру">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json_saver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user_interaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_interaction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vacancy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/vacancy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_json_saver.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_json_saver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_vacancy.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_vacancy.py" afterDir="false" />
-    </list>
+    <list default="true" id="3dddcb34-8567-4d16-a9d4-42ac2d3a2f09" name="Changes" comment="Изменил структуру, в src создал классы для поиска вакансий. Создал базовый клас для API" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +81,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737742892071</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Изменил структуру, в src создал классы для поиска вакансий. Создал базовый клас для API">
+      <option name="closed" value="true" />
+      <created>1737747605702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737747605702</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Изменил структуру, в src создал классы для поиска вакансий. Создал базовый клас для API">
+      <option name="closed" value="true" />
+      <created>1737747610476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737747610476</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создал структуру" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал структуру" />
+    <MESSAGE value="Изменил структуру, в src создал классы для поиска вакансий. Создал базовый клас для API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменил структуру, в src создал классы для поиска вакансий. Создал базовый клас для API" />
   </component>
 </project>

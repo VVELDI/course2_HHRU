@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dddcb34-8567-4d16-a9d4-42ac2d3a2f09" name="Changes" comment="Запушил правильный файл main.py" />
+    <list default="true" id="3dddcb34-8567-4d16-a9d4-42ac2d3a2f09" name="Changes" comment="Запушил правильный файл main.py">
+      <change afterPath="$PROJECT_DIR$/data/filtered_vacancies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/json_vacancies.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/vacancies.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737747838875</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Запушил правильный файл main.py">
+      <option name="closed" value="true" />
+      <created>1737747988291</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737747988291</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

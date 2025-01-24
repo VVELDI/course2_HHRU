@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dddcb34-8567-4d16-a9d4-42ac2d3a2f09" name="Changes" comment="Запушил правильный файл main.py">
-      <change afterPath="$PROJECT_DIR$/data/filtered_vacancies.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/json_vacancies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/vacancies.json" beforeDir="false" />
-    </list>
+    <list default="true" id="3dddcb34-8567-4d16-a9d4-42ac2d3a2f09" name="Changes" comment="Добвыил json файлы в data" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737747988291</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добвыил json файлы в data">
+      <option name="closed" value="true" />
+      <created>1737748507692</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737748507692</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +161,7 @@
     <MESSAGE value="Изменил структуру, в src создал классы для поиска вакансий. Создал базовый клас для API" />
     <MESSAGE value="Написал тесты" />
     <MESSAGE value="Запушил правильный файл main.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Запушил правильный файл main.py" />
+    <MESSAGE value="Добвыил json файлы в data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добвыил json файлы в data" />
   </component>
 </project>

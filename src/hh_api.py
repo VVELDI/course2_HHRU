@@ -15,7 +15,7 @@ class HeadHunterAPI(BaseSaveFile, BaseLoadVacancies):
         self.__vacancies = []  # конечный список, в который складываются вакансии list[dict]
         super().__init__(file_worker)
 
-    def load_vacancies(self, keyword: str):
+    def load_vacancies(self, keyword: str) -> list:
         """Метод загрузки данных вакансий из API сервиса"""
 
         self.__params["text"] = keyword

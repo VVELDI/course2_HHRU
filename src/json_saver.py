@@ -14,7 +14,7 @@ class JSONSaver(BaseJsonSaver):
         self.__file_saver = file_saver
 
     @staticmethod
-    def load_info_json(file_path):
+    def load_info_json(file_path: str):
         """Метод получения данных из файла"""
         with open(file_path, encoding="utf-8") as file:
             json_file = json.load(file)
@@ -44,7 +44,7 @@ class JSONSaver(BaseJsonSaver):
         with open(self.__file_saver, "w", encoding="utf-8") as file:
             json.dump(json_file_vacancies, file, ensure_ascii=False, indent=4)
 
-    def delete_vacancy(self, vacancies: Vacancy):
+    def delete_vacancy(self, vacancies: Vacancy | dict):
         """Метод удаления вакансий из файла json"""
         with open(self.__file_saver, "r+", encoding="utf-8") as file:
             json_file_vacancies = json.load(file)

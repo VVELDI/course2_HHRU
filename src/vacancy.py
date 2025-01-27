@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Any
+
 
 class Vacancy:
     """Класс создания вакансии с параметрами"""
@@ -29,7 +31,7 @@ class Vacancy:
         self.__list_vacancies.append(dict_vacancy)
 
     @staticmethod
-    def __validate(salary):
+    def __validate(salary: str) -> dict:
         """Метод валидации зарплаты"""
         if salary is None:
             return {"from": 0, "to": 0}
@@ -50,14 +52,14 @@ class Vacancy:
             # Если тип данных неожиданный, возвращаем значения по умолчанию
             return {"from": 0, "to": 0}
 
-    def __ge__(self, other):
+    def __ge__(self, other) ->int:
         """Метод сравнения вакансий по зарплате (верхний порог)"""
         self_salary_to = self.__salary.get("to", 0)
         other_salary_to = other.__salary.get("to", 0)
         return self_salary_to >= other_salary_to
 
     @classmethod
-    def cast_to_object_list(cls, list_vacancies):
+    def cast_to_object_list(cls, list_vacancies) ->list:
         """Метод добавления вакансий из списка вакансий"""
         for vacancy_data in list_vacancies:
             # Валидируем зарплату
@@ -85,28 +87,28 @@ class Vacancy:
                 print(vacancies)
 
     @classmethod
-    def list_vacancies(cls):
+    def list_vacancies(cls) -> list:
         """Метод для получения всех вакансий"""
         return cls.__list_vacancies
 
     @classmethod
-    def clear_list(cls):
+    def clear_list(cls) -> Any:
         cls.__list_vacancies = []
 
     @property
-    def name(self):
+    def name(self) -> str:
         return self.__name
 
     @property
-    def url(self):
+    def url(self) -> str:
         return self.__url
 
     @property
-    def salary(self):
+    def salary(self) -> dict:
         return self.__salary
 
     @property
-    def snippet(self):
+    def snippet(self) -> str:
         return self.__snippet
 
 

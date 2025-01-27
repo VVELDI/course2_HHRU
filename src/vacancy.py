@@ -29,7 +29,7 @@ class Vacancy:
         self.__list_vacancies.append(dict_vacancy)
 
     @staticmethod
-    def __validate(salary):
+    def __validate(salary: str):
         """Метод валидации зарплаты"""
         if salary is None:
             return {"from": 0, "to": 0}
